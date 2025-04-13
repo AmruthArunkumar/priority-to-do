@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    margin: 8px;
+}
+
+.add-bar {
+	padding: 4px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.priority-input {
+    width: 30px;
+}
+
+.status {
+    padding: 8px;
+}
+
+.list-view {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.task-entry {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    gap: 8px;
+	background-color: lightgray;
+}
+
